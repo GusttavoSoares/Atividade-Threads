@@ -41,7 +41,7 @@ public class writeBuffer implements Runnable {
                 throw new RuntimeException(e);
             }
 
-            // STR9JG
+            // STRING
             int numeroSorteado = (int) Math.floor(Math.random() * 3);
 
             if (numeroSorteado == 1) {
