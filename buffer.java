@@ -8,6 +8,11 @@ public interface buffer {
 
     public void putBuffer(int value, int position)
             throws InterruptedException;
+
     public int getBuffer(int position) throws InterruptedException;
+
+    public void putBufferFloat(float value) throws InterruptedException;
+
+    public float getBufferFloat() throws InterruptedException;
 
 }
